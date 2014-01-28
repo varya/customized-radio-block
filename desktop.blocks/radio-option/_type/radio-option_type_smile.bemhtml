@@ -1,0 +1,12 @@
+block 'radio-option', mod 'type' 'smile' {
+
+    elem 'box' {
+        content: [
+            this.ctx.content,
+            {
+                block: 'smile'
+            }
+        ]
+    }
+
+}
