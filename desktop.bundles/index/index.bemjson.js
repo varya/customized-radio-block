@@ -9,21 +9,13 @@
     ],
     content:[
         {
-            block: 'header',
-            content: [
-                'header content goes here'
-            ]
-        },
-        {
-            block: 'content',
-            content: [
-                'main content'
-            ]
-        },
-        {
-            block: 'footer',
-            content: [
-                'footer content goes here'
+            block: 'radio',
+            mods: { type: 'smile' },
+            name: 'mood',
+            title: 'My mood',
+            options: [
+                { val: 0, text: 'good' },
+                { val: 1, text: 'bad' }
             ]
         },
         { elem: 'js', url: '_index.js' }
